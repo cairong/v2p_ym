@@ -1,0 +1,472 @@
+{
+  "localtemp": {
+    "name": "定时任务订阅",
+    "type": "sub",
+    "job": {
+      "type": "skip",
+      "target": ""
+    }
+  },
+  "iwCFxl9D": {
+    "name": "晶彩天气看看赚",
+    "type": "cron",
+    "time": "30 9,20 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_kkz.js"
+    },
+    "id": "iwCFxl9D"
+  },
+  "rO4JOGEY": {
+    "name": "晶彩天气文章视频",
+    "type": "cron",
+    "time": "20 7,18 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_read.js"
+    },
+    "id": "rO4JOGEY"
+  },
+  "GUUgz8J6": {
+    "name": "晶彩天气日常任务",
+    "type": "cron",
+    "time": "15,45 * * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_daily.js"
+    },
+    "id": "GUUgz8J6"
+  },
+  "gkzahn3L": {
+    "name": "晶彩天气任务签到",
+    "type": "cron",
+    "time": "30 22 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_reward.js"
+    },
+    "id": "gkzahn3L"
+  },
+  "OEJ53MEr": {
+    "name": "中青签到",
+    "type": "cron",
+    "time": "15 2 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqqd.js"
+    },
+    "id": "OEJ53MEr"
+  },
+  "bAyLOAyv": {
+    "name": "中青文章",
+    "type": "cron",
+    "time": "30 7,12,18 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqwz.js"
+    },
+    "id": "bAyLOAyv"
+  },
+  "iXDWEVPz": {
+    "name": "中青看看赚",
+    "type": "cron",
+    "time": "45 9 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqkkz.js"
+    },
+    "id": "iXDWEVPz"
+  },
+  "mGzOzLPy": {
+    "name": "中青火爆转发",
+    "type": "cron",
+    "time": "15 6,12,18 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_share.js"
+    },
+    "id": "mGzOzLPy"
+  },
+  "UpOJfxuS": {
+    "name": "中青福利视频",
+    "type": "cron",
+    "time": "20 21 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_Adv_video.js"
+    },
+    "id": "UpOJfxuS"
+  },
+  "UKkPDnvp": {
+    "name": "中青每日任务宝箱领取",
+    "type": "cron",
+    "time": "15 22 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqbox.js"
+    },
+    "id": "UKkPDnvp"
+  },
+  "ZWrpcvWp": {
+    "name": "中青每日收益统计",
+    "type": "cron",
+    "time": "15 23 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_today_score.js"
+    },
+    "id": "ZWrpcvWp"
+  },
+  "hAKMKCB9": {
+    "name": "中青好友签到红包",
+    "type": "cron",
+    "time": "15 7 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_friendSign.js"
+    },
+    "id": "hAKMKCB9"
+  },
+  "tk5vEuBp": {
+    "name": "中青抽奖",
+    "type": "cron",
+    "time": "34 22 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_Rotary.js"
+    },
+    "id": "tk5vEuBp"
+  },
+  "Ifz710UU": {
+    "name": "中青打卡赚",
+    "type": "cron",
+    "time": "34 5,9 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_wakeup.js"
+    },
+    "id": "Ifz710UU"
+  },
+  "nm8K3bqO": {
+    "name": "中青搜索赚",
+    "type": "cron",
+    "time": "35 5 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqssz.js"
+    },
+    "id": "nm8K3bqO"
+  },
+  "D6rc3aec": {
+    "name": "中青浏览赚",
+    "type": "cron",
+    "time": "34 6 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zqllz.js"
+    },
+    "id": "D6rc3aec"
+  },
+  "jZZn9knc": {
+    "name": "中青阅读翻倍",
+    "type": "cron",
+    "time": "34 5 * * 1",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_double.js"
+    },
+    "id": "jZZn9knc"
+  },
+  "rUGjQpjR": {
+    "name": "中青自动提现",
+    "type": "cron",
+    "time": "25 10 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/zq/zq_withdraw.js"
+    },
+    "id": "rUGjQpjR"
+  },
+  "dvZqw1ab": {
+    "name": "晶彩签到",
+    "type": "cron",
+    "time": "15 2 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcqd.js"
+    },
+    "id": "dvZqw1ab"
+  },
+  "C62zWBST": {
+    "name": "晶彩文章",
+    "type": "cron",
+    "time": "30 7,12,18 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcwz.js"
+    },
+    "id": "C62zWBST"
+  },
+  "nE6Nra9D": {
+    "name": "晶彩看看赚",
+    "type": "cron",
+    "time": "45 9 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jckkz.js"
+    },
+    "id": "nE6Nra9D"
+  },
+  "zV3KZ6Yz": {
+    "name": "晶彩火爆转发",
+    "type": "cron",
+    "time": "15 6,12,18 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_share.js"
+    },
+    "id": "zV3KZ6Yz"
+  },
+  "jbYqGQsY": {
+    "name": "晶彩福利视频",
+    "type": "cron",
+    "time": "20 21 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Adv_video.js"
+    },
+    "id": "jbYqGQsY"
+  },
+  "ZM7YJpUv": {
+    "name": "晶彩每日任务宝箱领取",
+    "type": "cron",
+    "time": "15 22 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jcbox.js"
+    },
+    "id": "ZM7YJpUv"
+  },
+  "PnivVZyf": {
+    "name": "晶彩好友签到红包",
+    "type": "cron",
+    "time": "15 7 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_friendSign.js"
+    },
+    "id": "PnivVZyf"
+  },
+  "kLuGn1Uj": {
+    "name": "晶彩抽奖",
+    "type": "cron",
+    "time": "34 22 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_Rotary.js"
+    },
+    "id": "kLuGn1Uj"
+  },
+  "uvNS89g9": {
+    "name": "晶彩提现",
+    "type": "cron",
+    "time": "34 10 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_withdraw.js"
+    },
+    "id": "uvNS89g9"
+  },
+  "oyr3JCs6": {
+    "name": "晶彩每日收益统计",
+    "type": "cron",
+    "time": "15 23 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jc_today_score.js"
+    },
+    "id": "oyr3JCs6"
+  },
+  "lCkoh349": {
+    "name": "晶彩看点5分钟60分钟任务领取",
+    "type": "cron",
+    "time": "20 10 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/blob/main/Jc_5_60.js"
+    },
+    "id": "lCkoh349"
+  },
+  "W5GBRr3a": {
+    "name": "中青音乐",
+    "type": "cron",
+    "time": "19 10-18 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "zq_music.js"
+    },
+    "id": "W5GBRr3a"
+  },
+  "li05YVrf": {
+    "name": "中青看点5分钟60分钟任务领取",
+    "type": "cron",
+    "time": "20 10 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://gitee.com/Jxell/js_scripts/raw/main/zq/zq_5_60.js"
+    },
+    "id": "li05YVrf"
+  },
+  "VlKiM0N3": {
+    "name": "晶彩天气分享阅读",
+    "type": "cron",
+    "time": "33,56 8-18 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/jctq/jctq_shareRead.js"
+    },
+    "id": "VlKiM0N3"
+  },
+  "ySDKCP4L": {
+    "name": "中青看点分享阅读",
+    "type": "cron",
+    "time": "43,12 10-20 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/zqkd/zqkd_shareRead.js"
+    },
+    "id": "ySDKCP4L"
+  },
+  "V6E2xeIB": {
+    "name": "晶彩看点分享阅读",
+    "type": "cron",
+    "time": "21,50 9-19 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/leafxcy/JavaScript/main/jckd/jckd_shareRead.js"
+    },
+    "id": "V6E2xeIB"
+  },
+  "UkAF0NDH": {
+    "name": "清空日志",
+    "type": "cron",
+    "time": "30 58 23 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/deletelog.js"
+    },
+    "id": "UkAF0NDH"
+  },
+  "MibgXIZ3": {
+    "name": "通过 REWRITE 订阅添加的任务",
+    "type": "cron",
+    "time": "30 0 0 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/test.js"
+    },
+    "id": "MibgXIZ3"
+  },
+  "MhEd97XA": {
+    "name": "中青看点翻倍",
+    "type": "cron",
+    "time": "0 23 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/liuqi6968/-/main/zq_fbjl.js"
+    },
+    "id": "MhEd97XA"
+  },
+  "buzfBZkN": {
+    "name": "软更新升级",
+    "type": "cron",
+    "time": "30 58 21 * * *",
+    "running": true,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/softupdate.js"
+    },
+    "id": "buzfBZkN"
+  },
+  "AVR2Li0K": {
+    "name": "Python安装(Docker下)",
+    "type": "schedule",
+    "time": "0",
+    "running": false,
+    "job": {
+      "type": "runjs",
+      "target": "https://ghproxy.com/https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/python-install.js"
+    },
+    "id": "AVR2Li0K"
+  },
+  "B7KsBIzR": {
+    "name": "重启 elecV2P",
+    "type": "schedule",
+    "time": "0",
+    "running": false,
+    "job": {
+      "type": "exec",
+      "target": "pm2 restart elecV2P"
+    },
+    "id": "B7KsBIzR"
+  },
+  "ENGtuvSS": {
+    "name": "任务添加并执行",
+    "type": "schedule",
+    "time": "10",
+    "running": false,
+    "job": {
+      "type": "exec",
+      "target": "node -v"
+    },
+    "id": "ENGtuvSS"
+  },
+  "unNYU3r3": {
+    "name": "Shell 指令远程任务",
+    "type": "schedule",
+    "time": "0",
+    "running": false,
+    "job": {
+      "type": "exec",
+      "target": "python3 https://ghproxy.com/https://raw.githubusercontent.com/elecV2/elecV2P/master/script/Shell/elecV2P-exam.py"
+    },
+    "id": "unNYU3r3"
+  }
+}

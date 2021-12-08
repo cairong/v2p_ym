@@ -1,0 +1,117 @@
+{
+  "path": "/usr/local/app/script/Lists/config.json",
+  "anyproxy": {
+    "enable": false,
+    "port": 8001,
+    "webPort": 8002
+  },
+  "wbrtoken": "76fc0bf5-1b04-42b7-b49c-c2ed483e54ba",
+  "version": "3.5.4",
+  "vernum": 354,
+  "start": 1638768909766,
+  "CONFIG_Axios": {
+    "proxy": {
+      "enable": false
+    },
+    "timeout": 5000,
+    "uagent": "iPhone",
+    "block": {
+      "enable": false,
+      "regexp": ""
+    },
+    "only": {
+      "enable": false,
+      "regexp": ""
+    }
+  },
+  "CONFIG_FEED": {
+    "enable": true,
+    "rss": {
+      "enable": true,
+      "homepage": "https://github.com/elecV2/elecV2P"
+    },
+    "iftttid": {
+      "enable": false,
+      "key": ""
+    },
+    "barkkey": {
+      "enable": false,
+      "key": ""
+    },
+    "custnotify": {
+      "enable": true,
+      "url": "http://pushplus.hxtrip.com/send?",
+      "type": "POST",
+      "data": "{\n  \"token\": `ab33e50ece4346cc912ade4f15d1e135`,\n  \"title\": `$title$\\n17268208611`,\n  \"content\": `$body$\\n$url$`,\n  \"Content-Type\": `application/json`,\n  \"topic\":`33`\n}"
+    },
+    "runjs": {
+      "enable": false,
+      "list": ""
+    },
+    "merge": {
+      "enable": true,
+      "gaptime": 60,
+      "number": 10,
+      "andor": false
+    },
+    "maxbLength": 1200,
+    "webmessage": {
+      "enable": false
+    }
+  },
+  "CONFIG_RUNJS": {
+    "timeout": 5000,
+    "intervals": 86400,
+    "numtofeed": 50,
+    "jslogfile": true,
+    "eaxioslog": false,
+    "proxy": true,
+    "white": {
+      "enable": false,
+      "list": []
+    }
+  },
+  "efss": {
+    "enable": true,
+    "directory": "./efss",
+    "dotshow": {
+      "enable": false
+    },
+    "max": 600,
+    "skip": {
+      "folder": [],
+      "file": []
+    },
+    "favend": {
+      "efh": {
+        "key": "efh",
+        "name": "efh 初版",
+        "type": "runjs",
+        "target": "elecV2P.efh",
+        "enable": true
+      },
+      "test": {
+        "key": "test",
+        "name": "测试",
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/elecV2/elecV2P/master/script/JSFile/favend.js",
+        "enable": true
+      },
+      "logs": {
+        "key": "logs",
+        "name": "logs 查看",
+        "type": "favorite",
+        "target": "logs",
+        "enable": true
+      },
+      "shell": {
+        "key": "shell",
+        "name": "shell 目录",
+        "type": "favorite",
+        "target": "script/Shell",
+        "enable": true
+      }
+    },
+    "favendtimeout": 5000
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "mitmhost": {
+    "note": "elecV2P mitmhost",
+    "total": 5,
+    "active": 5,
+    "enable": true,
+    "list": [
+      {
+        "host": "kandian.wkandian.com",
+        "enable": true
+      },
+      {
+        "host": "ant.xunsl.com",
+        "enable": true
+      },
+      {
+        "host": "tq.xunsl.com",
+        "enable": true
+      },
+      {
+        "host": "test.com",
+        "enable": true
+      },
+      {
+        "host": "httpbin.org",
+        "enable": true
+      }
+    ]
+  }
+}
